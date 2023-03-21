@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
+
+int main()
+{ 
+  //Area Calculator for circle
+  cout << "Enter Radius of Circle:" << endl;
+  
+  int radius;
+  cin >> radius;
+  double pi = 3.14;
+  
+  double area = pi * pow(radius, 2);
+  
+  cout << area << endl;
+  return 0;
+}
